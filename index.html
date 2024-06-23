@@ -7,7 +7,6 @@
     <style>
 
         body {
-            color: white;
             font-family: Arial, sans-serif;
             padding: 0px;
             background-image: url("back.jpg");
@@ -104,16 +103,20 @@
   .act-wrn:hover{
     background: rgb(7, 4, 196)
   }
+    .teksput{
+        color: white;
+    }
     </style>
 </head>
 <body>
+    <div class="teksput">
     <h1>List Latihan</h1>
     <div id="task-container">
         <label for="date-picker">Pilih Tanggal:</label>
         <input type="date" id="date-picker">
         <button onclick="loadTasks()">Tugas</button>
         <button onclick="submitTasks()">Submit</button>
-    </div>
+    </div></div>
     <div id="task-list" class="task-list"></div>
 
     <script>
